@@ -7,7 +7,7 @@ set -euo pipefail
 : "${CRSID:?Set CRSID, e.g. abc123}"
 : "${ZONE:=us-east5-b}"
 : "${ACCELERATOR_TYPE:=v6e-1}"
-: "${RUNTIME_VERSION:=v6e-ubuntu-2404}"
+: "${RUNTIME_VERSION:=v2-alpha-tpuv6e}"
 : "${TPU_NAME:=dis-2026-${CRSID}-tpu}"
 : "${MAX_WORKSHOP_TPUS:=2}"
 
