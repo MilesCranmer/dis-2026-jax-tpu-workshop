@@ -79,8 +79,9 @@ rm -rf ~/gcp_jax_tpu_lecture
 mkdir -p ~/gcp_jax_tpu_lecture
 tar -xzf ~/dis2026_tpu_workshop.tgz -C ~/gcp_jax_tpu_lecture
 cd ~/gcp_jax_tpu_lecture
-python3 -m pip install -U pip
-python3 -m pip install -r requirements-tpu.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv
+uv run pip install -r requirements-tpu.txt
 ```
 
 ## 3. Start Jupyter
