@@ -81,7 +81,7 @@ tar -xzf ~/dis2026_tpu_workshop.tgz -C ~/gcp_jax_tpu_lecture
 cd ~/gcp_jax_tpu_lecture
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv
-uv run pip install -r requirements-tpu.txt
+uv pip install -r requirements-tpu.txt
 ```
 
 ## 3. Start Jupyter
