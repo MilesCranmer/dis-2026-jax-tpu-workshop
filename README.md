@@ -20,7 +20,7 @@ export CRSID="CRSID"
 export PROJECT_ID="dis-2026-tpu-${CRSID}"
 export ZONE="us-east5-b"
 export ACCELERATOR_TYPE="v6e-1"
-export RUNTIME_VERSION="v6e-ubuntu-2404"
+export RUNTIME_VERSION="v2-alpha-tpuv6e"
 export TPU_NAME="dis-2026-${CRSID}-tpu"
 ```
 
