@@ -9,7 +9,7 @@ You will:
 3. run the notebook;
 4. delete the TPU VM before leaving.
 
-The notebook trains a small GPT-2-style model from scratch on Fable-5 traces using JAX, Flax, and Optax.
+The notebook trains a small GPT-2-style model from scratch on Shakespeare text using JAX, Flax, and Optax.
 
 ## 0. Set your project variables
 
@@ -124,7 +124,7 @@ Then open `http://127.0.0.1:8889/lab?token=...`.
 Open:
 
 ```text
-notebooks/dis_2026_jax_tpu_gpt2_fable.ipynb
+notebooks/dis_2026_jax_tpu_gpt2_shakespeare.ipynb
 ```
 
 First check that JAX sees TPU devices:
