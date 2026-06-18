@@ -1,0 +1,24 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data/model artifacts
+data/
+checkpoints/
+outputs/
+*.bin
+*.ckpt
+*.npy
+*.npz
+huggingface/
+.cache/
+wandb/
+
+# Instructor/private material must not live here
+private/
+instructor/
+reviews/
+external/
